@@ -62,18 +62,18 @@ export const Portfolio: React.FC<PortfolioProps> = ({ onOpenConsultation }) => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {/* Slider 1: Steering Wheel */}
               <BeforeAfterSlider
-                beforeImage="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80"
-                afterImage="https://images.unsplash.com/photo-1541348263662-e0c8de4259ba?auto=format&fit=crop&w=1200&q=80"
+                beforeImage="./images/worn_steering.jpg"
+                afterImage="./images/steering_wheel.jpg"
                 car="Porsche Macan GTS"
                 title="Перетяжка руля в Nappa со спортивной перфорацией и красной строчкой"
-                beforeLabel="ДО (160 000 км)"
+                beforeLabel="ДО (160 000 км износа)"
                 afterLabel="ПОСЛЕ ART TUNING"
               />
 
               {/* Slider 2: Seat Bolster Repair */}
               <BeforeAfterSlider
-                beforeImage="https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?auto=format&fit=crop&w=1200&q=80"
-                afterImage="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
+                beforeImage="./images/damaged_bolster.jpg"
+                afterImage="./images/restored_bolster.jpg"
                 car="Mercedes-Benz E 63 S AMG"
                 title="Восстановление геометрии поролона и замена сегмента кожи боковины"
                 beforeLabel="ДО (Трещины и заломы)"

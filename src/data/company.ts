@@ -58,7 +58,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     priceDisplay: 'от 6 500 ₽',
     duration: '1–2 рабочих дня',
     warranty: '2 года гарантии на шов и материал',
-    image: 'https://images.unsplash.com/photo-1541348263662-e0c8de4259ba?auto=format&fit=crop&w=1200&q=80',
+    image: './images/steering_wheel.jpg',
     tags: ['Nappa', 'Alcantara', 'Анатомия', 'Шов M/AMG'],
     features: [
       'Сохранение или дооснащение заводского подогрева руля',
@@ -86,7 +86,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     priceDisplay: 'от 28 000 ₽ / пара',
     duration: '3–6 рабочих дней',
     warranty: 'до 3 лет официальной гарантии',
-    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80',
+    image: './images/luxury_seats.jpg',
     tags: ['Передний ряд', 'Задний диван', 'Стежка', 'Nappa'],
     features: [
       'Точная посадка на каркас с сохранением работы датчиков присутствия и боковых подушек Airbag',
@@ -114,7 +114,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     priceDisplay: 'от 35 000 ₽',
     duration: '3–4 рабочих дня',
     warranty: '3 года гарантии от провисания',
-    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80',
+    image: './images/alcantara_ceiling.jpg',
     tags: ['Alcantara', 'Стойки', 'Козырьки', 'Black Edition'],
     features: [
       'Перетяжка потолка вместе с солнцезащитными козырьками и стойками',
@@ -220,7 +220,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     priceDisplay: 'от 180 000 ₽',
     duration: '10–18 рабочих дней',
     warranty: '3 года полной гарантии',
-    image: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1200&q=80',
+    image: './images/hero_interior.jpg',
     tags: ['Полный салон', 'Индивидуальный дизайн', 'VIP-проект', 'Nappa + Alcantara'],
     features: [
       'Разработка дизайн-проекта и образцов строчек до начала работ',
@@ -249,7 +249,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     priceDisplay: 'от 3 500 ₽ / деталь',
     duration: '1–2 рабочих дня',
     warranty: '1.5 года гарантии',
-    image: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=1200&q=80',
+    image: './images/restored_bolster.jpg',
     tags: ['Локальный ремонт', 'Боковины', 'Оригинальный тон', 'Экономия'],
     features: [
       'Экономия до 70% по сравнению с перетяжкой кресла целиком',
@@ -428,7 +428,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     categoryLabel: 'Комплексный проект',
     car: 'BMW M5 F90 Competition',
     description: 'Индивидуальный проект с комбинацией чёрной кожи Nappa и антрацитовой Alcantara. Фирменная трёхцветная строчка BMW M GmbH, нулевая синяя метка на руле и потолок в итальянскую алькантару со звёздным небом.',
-    image: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1400&q=80',
+    image: './images/hero_interior.jpg',
     isBeforeAfter: false,
     specs: {
       duration: '12 дней',
@@ -443,9 +443,9 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     categoryLabel: 'Руль Before / After',
     car: 'Porsche Macan GTS',
     description: 'Рулевое колесо с пробегом 160 000 км имело сильный износ верхнего сектора и потерю текстуры. Выполнена перетяжка в премиальную Nappa с перфорацией и красной строчкой Carmine Red.',
-    image: 'https://images.unsplash.com/photo-1541348263662-e0c8de4259ba?auto=format&fit=crop&w=1400&q=80',
-    beforeImage: 'https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1400&q=80',
-    afterImage: 'https://images.unsplash.com/photo-1541348263662-e0c8de4259ba?auto=format&fit=crop&w=1400&q=80',
+    image: './images/steering_wheel.jpg',
+    beforeImage: './images/worn_steering.jpg',
+    afterImage: './images/steering_wheel.jpg',
     isBeforeAfter: true,
     specs: {
       duration: '1.5 дня',
@@ -460,9 +460,9 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     categoryLabel: 'Ремонт Before / After',
     car: 'Mercedes-Benz E 63 S AMG',
     description: 'Разрушение бокового валика водительского кресла и глубокие трещины на заводской коже. Восстановлена геометрия пенолитья высокой плотности и заменена деталь кожи в оригинальный цвет и зерно.',
-    image: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=1400&q=80',
-    beforeImage: 'https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?auto=format&fit=crop&w=1400&q=80',
-    afterImage: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80',
+    image: './images/restored_bolster.jpg',
+    beforeImage: './images/damaged_bolster.jpg',
+    afterImage: './images/restored_bolster.jpg',
     isBeforeAfter: true,
     specs: {
       duration: '2 дня',
@@ -477,7 +477,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     categoryLabel: 'Потолок в Алькантару',
     car: 'Toyota Land Cruiser 300 GR Sport',
     description: 'Замена блеклого светлого заводского потолка на глубокий графитовый оттенок Alcantara. Все 8 стоек, козырьки с зеркалами и окрашивание 34 элементов фурнитуры в матовый Soft-Touch чёрный цвет.',
-    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1400&q=80',
+    image: './images/alcantara_ceiling.jpg',
     isBeforeAfter: false,
     specs: {
       duration: '4 дня',
@@ -492,7 +492,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     categoryLabel: 'Авторский салон',
     car: 'Audi RS6 Avant Quattro',
     description: 'Индивидуальный пошив спортивных ковшей Valcona Nappa с шестигранной ромбовидной отстрочкой RS Sport красной нитью. Дверные карты с объёмной рельефной подложкой.',
-    image: 'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1400&q=80',
+    image: './images/luxury_seats.jpg',
     isBeforeAfter: false,
     specs: {
       duration: '9 дней',
@@ -525,7 +525,7 @@ export const MATERIALS_DATA: MaterialItem[] = [
     origin: 'Wollsdorf / Pasubio (Австрия, Италия)',
     subtitle: 'Абсолютная гладкость и непревзойдённая тактильность',
     description: 'Полуанилиновая кожа высшей категории без искусственного тиснения. Отличается невероятной мягкостью, шелковистым прикосновением и естественным микропористым дыханием. Устанавливается в заводские интерьеры Porsche Exclusive Manufaktur, Bentley и Mercedes-Maybach.',
-    image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1200&q=80',
+    image: './images/luxury_seats.jpg',
     specs: {
       wearResistance: '> 120 000 циклов (Martindale)',
       thickness: '1.1 – 1.3 мм',
@@ -553,7 +553,7 @@ export const MATERIALS_DATA: MaterialItem[] = [
     origin: 'Alcantara S.p.A. (Милан, Италия)',
     subtitle: 'Икона автоспорта и роскошного комфорта',
     description: 'Оригинальный итальянский ультрамикроволоконный материал с уникальной бархатистой текстурой. В отличие от азиатских аналогов, не лоснится, не скатывается и обладает безупречной огнестойкостью. Идеален для потолка, стоек, центральных частей кресел и спортивных рулей.',
-    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80',
+    image: './images/alcantara_ceiling.jpg',
     specs: {
       wearResistance: '> 150 000 циклов',
       thickness: '0.8 – 1.0 мм',
@@ -580,7 +580,7 @@ export const MATERIALS_DATA: MaterialItem[] = [
     origin: 'Bader / Wollsdorf (Германия, Австрия)',
     subtitle: 'Выразительное зерно и повышенная выносливость',
     description: 'Классическая европейская автомобильная кожа со специальным защитным полимерным финишем и выразительным зернистым тиснением. Именно такой кожей комплектуются салоны BMW и Mercedes-Benz. Устойчива к джинсам, когтям питомцев и частому контакту.',
-    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80',
+    image: './images/restored_bolster.jpg',
     specs: {
       wearResistance: '> 100 000 циклов',
       thickness: '1.2 – 1.4 мм',
@@ -606,7 +606,7 @@ export const MATERIALS_DATA: MaterialItem[] = [
     origin: 'Германия / Южная Корея',
     subtitle: 'Высокотехнологичный полимер нового поколения',
     description: 'Экокожа премиального сегмента на основе микрофибры. Не имеет ничего общего с дешёвым дерматином: по воздухопроницаемости и прочности на разрыв превосходит многие натуральные кожи бюджетного сегмента, не трескается на морозе и гипоаллергенна.',
-    image: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=1200&q=80',
+    image: './images/steering_wheel.jpg',
     specs: {
       wearResistance: '> 80 000 циклов',
       thickness: '1.2 мм',

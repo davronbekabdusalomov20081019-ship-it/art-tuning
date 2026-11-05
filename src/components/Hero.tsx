@@ -13,7 +13,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation, onExplorePortfol
       {/* Background Image Layer with Cinematic Vignette & Lighting */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2000&q=85"
+          src="./images/hero_interior.jpg"
           alt="Премиальный салон автомобиля ART TUNING Красноярск"
           className="w-full h-full object-cover object-center scale-105 animate-pulse-slow"
         />

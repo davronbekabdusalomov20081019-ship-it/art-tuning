@@ -78,7 +78,7 @@ export const About: React.FC = () => {
           <div className="lg:col-span-5 space-y-6">
             <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl group">
               <img
-                src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1000&q=80"
+                src="./images/luxury_seats.jpg"
                 alt="Процесс работы в автоателье ART TUNING Красноярск"
                 className="w-full h-80 object-cover transition-transform duration-700 group-hover:scale-105"
               />
